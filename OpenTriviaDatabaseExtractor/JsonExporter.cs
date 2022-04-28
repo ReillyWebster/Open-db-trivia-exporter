@@ -11,7 +11,6 @@ namespace OpenTriviaDatabaseExtractor
     {
         public static void SaveJsonFile(List<TriviaQuestion> triviaQuestions, string exportDirectory)
         {
-            Debug.WriteLine(Directory.GetCurrentDirectory());
             using (StreamWriter file = File.CreateText(exportDirectory))
             {
                 JsonSerializer serializer = new JsonSerializer();

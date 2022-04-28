@@ -36,11 +36,15 @@ namespace OpenTriviaDatabaseExtractor
             {
                 if(category != Category.Any)
                 {
+                    Console.WriteLine($"Grabbing {category} questions...");
                     var categoryExportDirectory = $@"{exportDirectory}{category}Questions.json";
                     var questions = await GrabAllQuestions(category);
                     JsonExporter.SaveJsonFile(questions, categoryExportDirectory);
+                    Console.WriteLine($"{category} questions saved.");
                 }
             }
+
+            Console.WriteLine($"Export complete.");
         }
 
         static async Task<List<TriviaQuestion>> GrabAllQuestions(Category category)
@@ -55,9 +59,10 @@ namespace OpenTriviaDatabaseExtractor
 
                 foreach (TriviaQuestion question in tempQuestions)
                 {
-                    var test = questions.Where(q => q.Question == question.Question).ToList();
-                    if (test.Count == 0)
+                    var questionToSave = questions.Where(q => q.Question == question.Question).ToList();
+                    if (questionToSave.Count == 0)
                     {
+                        Console.WriteLine($"{questions.Count} of {count}");
                         questions.Add(question);
                     }
                 }
