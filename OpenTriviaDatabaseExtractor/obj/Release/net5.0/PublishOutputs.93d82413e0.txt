@@ -1,0 +1,7 @@
+C:\Users\ReillyWebster\Desktop\OpenDatabaseExports\Published\OpenTriviaDatabaseExtractor.exe
+C:\Users\ReillyWebster\Desktop\OpenDatabaseExports\Published\OpenTriviaDatabaseExtractor.dll
+C:\Users\ReillyWebster\Desktop\OpenDatabaseExports\Published\OpenTriviaDatabaseExtractor.deps.json
+C:\Users\ReillyWebster\Desktop\OpenDatabaseExports\Published\OpenTriviaDatabaseExtractor.runtimeconfig.json
+C:\Users\ReillyWebster\Desktop\OpenDatabaseExports\Published\OpenTriviaDatabaseExtractor.pdb
+C:\Users\ReillyWebster\Desktop\OpenDatabaseExports\Published\Newtonsoft.Json.dll
+C:\Users\ReillyWebster\Desktop\OpenDatabaseExports\Published\OpenTriviaSharp.dll
