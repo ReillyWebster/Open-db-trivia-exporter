@@ -25,7 +25,7 @@ namespace OpenTriviaDatabaseExtractor
 
         private async static Task CreateJsonFiles()
         {
-            string exportDirectory = $@"{Environment.GetFolderPath(Environment.SpecialFolder.Desktop)}\OpenDatabaseExports\";
+            string exportDirectory = $@"{Environment.GetFolderPath(Environment.SpecialFolder.Desktop)}\OpenTriviaDatabaseExports\";
             if (!Directory.Exists(exportDirectory))
             {
                 Directory.CreateDirectory(exportDirectory);
