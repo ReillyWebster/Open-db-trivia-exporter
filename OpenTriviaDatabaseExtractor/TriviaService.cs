@@ -2,6 +2,7 @@
 using OpenTriviaSharp.Models;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace OpenTriviaDatabaseExtractor
@@ -35,12 +36,14 @@ namespace OpenTriviaDatabaseExtractor
 
         public async Task<TriviaQuestion[]> LoadQuestions(Category category)
         {
+            client = await InitializeClient();
             var amount = await client.CountQuestionAsync(category);
 
-            token = await client.RequestTokenAsync();
+            //token = await client.RequestTokenAsync();
 
+            Thread.Sleep(5000);
             questions = await client.GetQuestionAsync(
-                amount: (byte)amount,
+                amount: (byte)50,
                 type: TriviaType.Any,
                 difficulty: Difficulty.Any,
                 category: category,

@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "RfdeDdMIquEPiL6UPPwLaL2DLoxAmv4ELJCs/Q4/A8NScamdQA2wdJYAuo7aF/1Zsm0JIVNDzsOTcjAe0xgRpw==",
+  "dgSpecHash": "hvA/zRpuv78jUBJlqXi2/KXwMjHjLOOIiqtbai0hfoZnIaWMnoSSTgq74kJiHfFeAbIR0Qa7VaJHVV/a+kmUvA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Open-db-trivia-exporter\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor.csproj",
+  "projectFilePath": "E:\\Projects\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ReillyWebster\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\ReillyWebster\\.nuget\\packages\\opentriviasharp\\1.1.1\\opentriviasharp.1.1.1.nupkg.sha512",
-    "C:\\Users\\ReillyWebster\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+    "C:\\Users\\Reilly\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Reilly\\.nuget\\packages\\opentriviasharp\\1.1.1\\opentriviasharp.1.1.1.nupkg.sha512",
+    "C:\\Users\\Reilly\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\Reilly\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Reilly\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Reilly\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Reilly\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }

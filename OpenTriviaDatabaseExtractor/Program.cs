@@ -39,6 +39,7 @@ namespace OpenTriviaDatabaseExtractor
                     Console.WriteLine($"Grabbing {category} questions...");
                     var categoryExportDirectory = $@"{exportDirectory}{category}Questions.json";
                     var questions = await GrabAllQuestions(category);
+                    CscExporter.SaveFile(questions, exportDirectory);
                     JsonExporter.SaveJsonFile(questions, categoryExportDirectory);
                     Console.WriteLine($"{category} questions saved.");
                 }
@@ -55,6 +56,7 @@ namespace OpenTriviaDatabaseExtractor
 
             while (questions.Count != count)
             {
+                
                 var tempQuestions = await service.LoadQuestions(category);
 
                 foreach (TriviaQuestion question in tempQuestions)

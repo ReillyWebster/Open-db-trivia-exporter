@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Open-db-trivia-exporter\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor.csproj": {}
+    "E:\\Projects\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Open-db-trivia-exporter\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor.csproj": {
+    "E:\\Projects\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Open-db-trivia-exporter\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor.csproj",
+        "projectUniqueName": "E:\\Projects\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor.csproj",
         "projectName": "OpenTriviaDatabaseExtractor",
-        "projectPath": "C:\\Projects\\Open-db-trivia-exporter\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor.csproj",
-        "packagesPath": "C:\\Users\\ReillyWebster\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Open-db-trivia-exporter\\OpenTriviaDatabaseExtractor\\obj\\",
+        "projectPath": "E:\\Projects\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor.csproj",
+        "packagesPath": "C:\\Users\\Reilly\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\OpenTriviaDatabaseExtractor\\OpenTriviaDatabaseExtractor\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\Reilly\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ReillyWebster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Reilly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Reilly\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Reilly\\Downloads\\godot-csharp-visualstudio-2.0.0": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,16 +60,35 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
